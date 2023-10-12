@@ -41,7 +41,7 @@ export default function Projects({ language }) {
               href="https://redux-filmler-six.vercel.app/movies"
               target="_blank"
             >
-              <p> Viev Site</p>
+              <p> View Site</p>
             </a>
           </div>
         </div>
@@ -78,10 +78,10 @@ export default function Projects({ language }) {
               href="https://github.com/LadyDementor/fsweb-s10g4-thunk-and-apis"
               target="_blank"
             >
-              <p> Githup</p>
+              <p> GitHub</p>
             </a>
             <a href="https://thunk-and-apis-puce.vercel.app/" target="_blank">
-              <p> Viev Site</p>
+              <p> View Site</p>
             </a>
           </div>
         </div>
@@ -120,7 +120,7 @@ export default function Projects({ language }) {
               <p>GitHub</p>
             </a>
             <a href="https://minnetgunlugu-pi.vercel.app/" target="_blank">
-              <p>Viev Site</p>
+              <p>View Site</p>
             </a>
           </div>
         </div>

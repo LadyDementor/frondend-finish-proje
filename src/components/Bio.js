@@ -52,7 +52,7 @@ export default function Bio({ language }) {
             </div>
             <div className="button-2">
               <img src=".\icons\LinkedIn.png" alt="linkedIn" />
-              <a href="https://www.linkedin.com/in/burcu-%C3%A7alg%C4%B1n-52016014a//">
+              <a href="https://www.linkedin.com/in/burcu-ba%C5%9Fak-52016014a/">
                 <p>LinkedIn</p>
               </a>
             </div>

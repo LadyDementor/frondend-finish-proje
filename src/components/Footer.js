@@ -5,15 +5,15 @@ export default function Footer({ language }) {
     <footer className="footer">
       {language === "en" ? (
         <h3 className="letsWork">
-          Let's work together on 
+          Let's work together and make
           <br />
-         your next product.
+          your next project a success.
         </h3>
       ) : (
         <h3 className="letsWork">
-          Ekip olalım ve bir sonraki ürününüzü
+          Birlikte çalışalım ve bir sonraki projenizi
           <br />
-          başarıya ulaştıralım.
+          başarıya taşıyalım.
         </h3>
       )}
 

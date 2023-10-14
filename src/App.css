@@ -367,11 +367,12 @@ a {
 
 .skillsList {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
 .skillsListGroup {
+  padding-bottom: 3rem;
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -531,7 +532,7 @@ a {
   padding-bottom: 6rem;
   padding-left: 10rem;
   padding-right: 10rem;
-  max-width: 90%;
+  max-width: 1400%;
   display: flex;
   flex-direction: column;
   gap: 3rem;
@@ -551,9 +552,11 @@ a {
 .kartlarGrup {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   align-items: flex-start;
+  flex-wrap: wrap;
   padding: 0px;
-  gap: 7.5rem;
+  gap: 3rem;
 }
 
 .projects-list img {
@@ -565,7 +568,7 @@ a {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  float: left;
+ 
 }
 
 .projects-list h4 {
@@ -605,6 +608,7 @@ a {
 
 .techStack p {
   box-sizing: border-box;
+   font-size: 13px;
 
   /* Auto layout */
   color: #3730a3;
@@ -615,7 +619,7 @@ a {
   padding: 6px 18px 7px;
   gap: 10px;
 
-  width: 68px;
+  width: 90px;
   height: 27px;
 
   background: #ffffff;

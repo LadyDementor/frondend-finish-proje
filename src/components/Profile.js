@@ -40,11 +40,19 @@ export default function Profile({ language }) {
           <div className="aboutMe">
             <h4>About Me</h4>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam
-              aut, odit laborum aliquam voluptatum nisi mollitia.
+              I graduated from Süleyman Demirel University, Department of Food
+              Engineering, in 2017. After graduation, I had a total of 4 years
+              of working experience in the field of production and sales
+              management.
               <br />
-              <br /> Mnima accusamus ratione soluta aperiam sit voluptate? Dicta
-              quod deserunt quam temporibus cumque magnam!
+              <br /> In 2022, I took the university exam again and got into
+              Ahmet Yesevi University. I am still in the second year of the
+              department I am studying. Currently, I have also enrolled in a
+              6-month intensive and accelerated full stack web development
+              course with Workintech, where I learn and implement real-life
+              software projects in team environments. Thanks to this program, I
+              gained proficiency in various technologies and took an active part
+              in project development.
             </p>
           </div>
         ) : (

@@ -7,8 +7,121 @@ export default function Projects({ language }) {
       <h3>Projects</h3>
       <div className="kartlarGrup">
         <div className="projects-list">
-          <img src=".\icons\Rectangle 41 KADIN.png" />
-          <h4>Workintech</h4>
+          <img src=".\icons\pizza resim.png" />
+          <h4>Pizza</h4>
+
+          {language === "en" ? (
+            <p className="aciklama">
+              Using routing, forms, javascript, and cypress testing, I created
+              Technological Foods, a website designed to bring food to hungry
+              developers.
+            </p>
+          ) : (
+            <p className="aciklama">
+              Routing, formlar,javascrip ve cypress testlerini kullanarak aç
+              yazılımcılara yiyecek getirmek için tasarlanmış bir web sitesi
+              olan Teknolojik Yemekler'i oluşturdum.
+            </p>
+          )}
+
+          <div className="techStack">
+            <p>routing</p>
+            <p>formlar</p>
+            <p>javascript</p>
+          </div>
+          <div className="details">
+            <a
+              href="https://github.com/LadyDementor/fsweb-s7-challenge-pizza"
+              target="_blank"
+            >
+              <p> GitHub</p>
+            </a>
+            <a
+              href="https://fsweb-s7-challenge-pizza-927q.vercel.app/"
+              target="_blank"
+            >
+              <p> View Site</p>
+            </a>
+          </div>
+        </div>
+
+        <div className="projects-list">
+          <img src=".\icons\shopcart.png" />
+          <h4>Shopping Card</h4>
+
+          {language === "en" ? (
+            <p className="aciklama">
+              Using my newfound knowledge of the 'Context API', I refactored an
+              e-commerce page to use the 'Context API'.
+            </p>
+          ) : (
+            <p className="aciklama">
+              'Context API' hakkında yeni edindiğim bilgileri kullanarak bir
+              e-ticaret sayfasını 'Context API' kullanacak şekilde yeniden
+              düzenledim.
+            </p>
+          )}
+
+          <div className="techStack">
+            <p>react</p>
+            <p>redux</p>
+            <p>usecontext</p>
+          </div>
+          <div className="details">
+            <a
+              href="https://github.com/LadyDementor/fsweb-s11g1-shopping-cart"
+              target="_blank"
+            >
+              <p> GitHub</p>
+            </a>
+            <a
+              href="https://fsweb-s11g1-shopping-cart-lake.vercel.app/"
+              target="_blank"
+            >
+              <p> View Site</p>
+            </a>
+          </div>
+        </div>
+
+        <div className="projects-list">
+          <img src=".\icons\blackswan.png" />
+          <h4>Watch list</h4>
+
+          {language === "en" ? (
+            <p className="aciklama">
+              Using Redux in a project where I am working with a large film
+              management application; I completed tasks such as adding, deleting
+              movies, adding to favorites with actions and the given tips.
+            </p>
+          ) : (
+            <p className="aciklama">
+              Büyük bir film yönetim uygulaması ile çalıştığım projede redux
+              kullanarak; film ekleme, silme, favorilere ekleme gibi görevleri
+              actionlarla ve verilen ipuçları ile tamamladım.
+            </p>
+          )}
+
+          <div className="techStack">
+            <p>javascript</p>
+            <p>redux</p>
+            <p>axios</p>
+          </div>
+          <div className="details">
+            <a
+              href="https://github.com/LadyDementor/fsweb-s10g3-redux-watchlist"
+              target="_blank"
+            >
+              <p> GitHub</p>
+            </a>
+            <a href="https://redux-watchlist-five.vercel.app/" target="_blank">
+              <p> View Site</p>
+            </a>
+          </div>
+        </div>
+
+        <div className="projects-list">
+          <img src=".\icons\filmmakara.png" />
+          <h4>Movie Archive</h4>
 
           {language === "en" ? (
             <p className="aciklama">
@@ -19,12 +132,13 @@ export default function Projects({ language }) {
             </p>
           ) : (
             <p className="aciklama">
-              İngilizce Bu projede, küçük bir film veritabanı içeren bir web
-              uygulamasında çalıştım, iki farklı reducer ile işlem yaptım.Hem
-              mevcut tüm state ve action oluşturucuları kullandım, hem de
-              sıfırdan reducer/redux pairing'leri oluşturacaksınız.
+              Bu projede, küçük bir film veritabanı içeren bir web uygulamasında
+              çalıştım, iki farklı reducer ile işlem yaptım.Hem mevcut tüm state
+              ve action oluşturucuları kullandım, hem de sıfırdan reducer/redux
+              pairing'leri oluşturdum.
             </p>
           )}
+
           <div className="techStack">
             <p>react</p>
             <p>redux</p>
@@ -47,7 +161,7 @@ export default function Projects({ language }) {
         </div>
 
         <div className="projects-list">
-          <img src=".\icons\Rectangle 41.png" />
+          <img src=".\icons\joker.png" />
           <h4>Random Jokes</h4>
 
           {language === "en" ? (
@@ -63,8 +177,8 @@ export default function Projects({ language }) {
               Bu projede asenkron bir action creator yazabilmek için
               redux-thunk'ı middleware olarak kullandım,oluşturduğum datanın bir
               kısmını da localStorage içerisinde sakladım.Gerekli ayarlamaları
-              yaptıktan sonra ve bir öge favorilere eklendikten sonra başarı
-              toast mesajı görüntülüyorum.
+              yaptıktan sonra ve bir öge favorilere eklendikten sonra mesajı
+              görüntülüyorum.
             </p>
           )}
 
@@ -87,8 +201,8 @@ export default function Projects({ language }) {
         </div>
 
         <div className="projects-list">
-          <img src=".\icons\Rectangle 41 PC.png" />
-          <h4>Journey</h4>
+          <img src=".\icons\gunluk.png" />
+          <h4>Diary</h4>
 
           {language === "en" ? (
             <p className="aciklama">
@@ -108,7 +222,7 @@ export default function Projects({ language }) {
           )}
 
           <div className="techStack">
-            <p>react</p>
+            <p>localStorage</p>
             <p>redux</p>
             <p>axios</p>
           </div>
